@@ -1,0 +1,14 @@
+
+entity Account {
+	accountNum Integer,
+    accountLabel String,
+    oldBalance Long,
+    balance Long
+}
+
+
+paginate Account with pagination
+
+dto * with mapstruct
+
+service all with serviceImpl
